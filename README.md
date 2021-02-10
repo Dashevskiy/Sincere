@@ -6,8 +6,6 @@
 
 В файле index.js папки reducers инициализируется изначальное состояние данных хранилища. +Сам reducer.
 
-В actions хранятся Action Creator.
-
 В папке components находятся все View components (App, Footer, Header, Login, Logo, Main, News, Profile).
 
 Компонент App является контейнером для всех компонентов, в котором с помощью Provider подключается store, 
