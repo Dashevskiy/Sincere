@@ -1,0 +1,10 @@
+.hidden {
+  overflow: hidden;
+}
+
+.app__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}

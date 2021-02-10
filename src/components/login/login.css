@@ -1,0 +1,22 @@
+.login {
+  padding: 50px 25%;
+}
+
+.login__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__btn {
+  color: #fff;
+  line-height: 28px;
+  background-color: #30DCA9;
+  border: none;
+}
+
+.login__btn:hover {
+  color: #fff;
+}
+
+/*# sourceMappingURL=login.css.map */
