@@ -1,16 +1,12 @@
 **Sincere Systems test task**
 
 
-Для разработки были испольовано React, Redux, Bootstrap, SASS.
-В папке src в корневом файле store.js создаётся Store c вложенным reducer.
+React, Redux, Bootstrap, SASS were used for development. A Store with a nested reducer is created in the src folder in the root store.js file.
 
-В файле index.js папки reducers инициализируется изначальное состояние данных хранилища. +Сам reducer.
+The index.js file in the reducers folder initializes the initial state of the store data. + The reducer itself.
 
-В папке components находятся все View components (App, Footer, Header, Login, Logo, Main, News, Profile).
+The components folder contains all View components (App, Footer, Header, Login, Logo, Main, News, Profile).
 
-Компонент App является контейнером для всех компонентов, в котором с помощью Provider подключается store, 
-a BrowserRouter подключает роутинг.
+The App component is a container for all components, in which the store is connected using the Provider, and the BrowserRouter connects the routing.
 
-В Компоненте Login в локальном state сохраняются имя и пароль пользователся, которые отправляются в store после нажатия кнопки 'Войти'.
-Реализовано сохранене логина и пароля в localStorage.
-
+In the Login Component in the local state, the username and password are stored, which are sent to the store after clicking the 'Login' button. Implemented saving login and password in localStorage.
