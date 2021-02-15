@@ -1,4 +1,4 @@
-**Тестовое задание Sincere Systems**
+**Sincere Systems test task**
 
 
 Для разработки были испольовано React, Redux, Bootstrap, SASS.
