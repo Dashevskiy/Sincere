@@ -1,12 +1,34 @@
-**Sincere Systems test task**
 
+Задача
+Реализовать приложение, которое умеет показывать следующие страницы:
 
-React, Redux, Bootstrap, SASS were used for development. A Store with a nested reducer is created in the src folder in the root store.js file.
+/ — главная
+/login — страница ввода логина и пароля
+/news — страница с новостями (любая однотипная информация)
+/profile — страница с произвольным текстом, недоступная без авторизации
+На сайте, в шапке или подвале реализовать ссылки:
 
-The index.js file in the reducers folder initializes the initial state of the store data. + The reducer itself.
+На главную (/)
+Новости (/news)
+Профиль (/profile)
+Если пользователь кликает на страницу “профиля” и он не “авторизован” — перекидывать на страницу /login
 
-The components folder contains all View components (App, Footer, Header, Login, Logo, Main, News, Profile).
+Форма входа (/login) принимает “фейковые” данные:
 
-The App component is a container for all components, in which the store is connected using the Provider, and the BrowserRouter connects the routing.
+username: Admin
+password: 12345
+Если введены другие данные, то показывается сообщения:
 
-In the Login Component in the local state, the username and password are stored, which are sent to the store after clicking the 'Login' button. Implemented saving login and password in localStorage.
+Имя пользователя или пароль введены не верно
+
+Если введены корректные данные, то перебрасывать на страницу /profile
+
+Информацию об авторизации пользователя можно хранить в localStorage, простым параметром true/false. Базу данных реализовать не нужно.
+
+Все необходимое на ваш взгляд, прокинуть через Redux.
+
+Оформление — имеет значение. Никто не ждет дизайнерских решений, просто чтобы можно было комфортно смотреть пример в браузере со всеми ховерами. Можно воспользоваться готовыми элементами например отсюда:
+https://materializecss.com
+
+Также страницу /news требуется сверстать по макету:
+https://www.figma.com/file/XlHblwtn9Xnfe9GuOLJV5O/Untitled?node-id=0%3A1
